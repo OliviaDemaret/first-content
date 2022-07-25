@@ -1,2 +1,41 @@
-.attribution { font-size: 11px; text-align: center;}
-.attribution a { color: hsl(228, 45%, 44%);}
+body {
+  background-color: grey;
+}
+
+.white-div {
+  background-color: white;
+  width: 350px;
+  height: 450px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 5% 0;
+  margin: auto;
+}
+
+#img {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+}
+.p-one {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.p-two {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+#attribution {
+  font-size: 11px;
+  text-align: center;
+}
+#attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution {
+  opacity: 0;
+}
