@@ -1,41 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&display=swap");
+
 body {
-  background-color: grey;
+  font-family: "Kumbh Sans";
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  background-color: darkcyan;
+  background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
+  background-position: right 58vw bottom 20vh, left 58vw top 30vh;
+  background-repeat: no-repeat, no-repeat;
+  padding: 0px;
+  margin: 0;
 }
 
 .white-div {
   background-color: white;
-  width: 350px;
-  height: 450px;
+  width: 430px;
   border-radius: 25px;
   text-align: center;
-  padding: 5% 0;
+  padding: 0px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.div-one {
+  border-radius: 15px 15px 0px 0px;
+  padding: 75px;
+  background-image: url("bg-pattern-card.svg");
   margin: auto;
 }
 
-#img {
-  width: 300px;
-  height: 300px;
-  align-items: center;
+.victor {
+  padding: 15px;
+  border-radius: 60px;
+  margin-bottom: -140px;
+}
+.div-two {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: center;
+  padding: 40px;
+  margin-bottom: -40px;
+  text-align: center;
 }
 .p-one {
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
+  margin-right: 5px;
 }
 
 .p-two {
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
+  font-weight: 700;
+  opacity: 50%;
+  text-align: right;
 }
-#attribution {
-  font-size: 11px;
+.p-three {
+  font-weight: 400;
+  color: darkgray;
+  margin: auto;
+}
+
+hr {
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  color: darkgray;
+}
+
+.span-one {
+  display: flex;
+  flex-direction: column;
+  column-gap: 50px;
+  flex-flow: column;
+}
+
+.div-three {
+  color: hsl(229, 23%, 23%);
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: space-around;
   text-align: center;
+  font-weight: 700;
+  font-size: 18px;
 }
-#attribution a {
-  color: hsl(228, 45%, 44%);
+
+.div-four {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: darkgray;
+  margin-top: -30px;
 }
 
 .attribution {
+  background-image: url("bg-pattern-bottom.svg");
+  background-position: right bottom;
+  background-size: 50%;
   opacity: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
